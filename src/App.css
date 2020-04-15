@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet');
+
+#tooltip:empty {
+    display: none;
+  }
+
+#tooltip {
+    font-family: Helvetica, Arial, sans-serif;
+    position: absolute;
+    padding: 4px;
+    margin: 8px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    max-width: 300px;
+    font-size: 20px;
+    z-index: 9;
+    pointer-events: none;
+}
+
+
+.App {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.App-logo {
+  height: 40vmin;
+  margin-top: 40px;
+  margin-left: 105px;
+}
+
+
+.App-logop {
+  height: 40vmin;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.App-logosmall {
+  height: 15vmin;
+  width: 82vmin;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+
+.App-logobig{
+  height: 165vmin;
+  width: 90vmin;
+  margin-top: 25px;
+  margin-left: 15px;
+}
+
+
+
+
+.App-log {
+  height: 55vmin;
+  width: 91vmin;
+
+}
+
+.Link {
+        color: #350a27;
+         font-weight:bold;
+}
+
+p {
+   justify-content: center;
+   flex-direction: column;
+   text-align: center;
+   color: #cb9b99;
+  font-size: 25px;
+   font-family: 'Montserrat', sans-serif;
+   text-shadow: 0.1px 0.1px 0.1px #cbcabf;
+}
+
+.glow {
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 2px 2px 4px #cb1e96;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.Glow {
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 2px 2px 4px #cb1e96;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.glowBlue {
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 2px 2px 4px #02bccb;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.glowt {
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0.1px 0.1px 0.1px #080808;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.glowB {
+  font-size: 30px;
+  color: #4d0003;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 0.1px 0.1px 0.1px rgb(9, 9, 9);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.glowC {
+  font-size: 25px;
+  color: #fffbca;
+  text-align: center;
+  text-shadow: 0.1px 0.1px 0.1px rgb(239, 105, 107);
+  fontFamily: 'Montserrat',
+
+}
+
+.glowF {
+  font-size: 15px;
+  color: #c4fbee;
+  text-align: center;
+  text-shadow: 2px 2px 2px  rgb(9, 10, 7);
+  fontFamily: 'Montserrat',
+
+}
+
+.glowD {
+  font-size: 15px;
+  color: #c3e7f1;
+  text-align: center;
+  text-shadow: 0.5px 0.5px 0.5px rgb(36, 28, 223);
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.glowR{
+   font-size: 20px;
+  color: #2b0825;
+  text-align: center;
+  text-shadow: 2px 2px 4px #cb59af;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.App-button{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.8);
+  background: rgb(179, 166, 182);
+  padding: 5px 10px;
+  border-radius: 2px;
+  font-weight: bold;
+  font-size: 15px;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.App-buttoner{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.8);
+  background: rgb(179, 166, 182);
+  padding: 0.01px 0px;
+  border-radius: 1px;
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 20px;
+}
+
+
+
+.App-glow-button:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(122, 181, 182, 0.4);
+   font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.App-header {
+  background-image: url("media/back.png");
+  font-family: 'Montserrat', sans-serif;
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight:bold;
+  font-size: calc(10px + 2vmin);
+  color: #b2e3e9;
+}
+
+
+.App-headerr{
+  background-image: url("media/neon4.jpg");
+  font-family: 'Montserrat', sans-serif;
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight:bold;
+  font-size: calc(10px + 2vmin);
+  color: #b2e3e9;
+    background-repeat: no-repeat;
+  background-size: 370px 700px;
+}
+
+.App-heade {
+  background-image: url("media/neonq.jpg");
+  font-family: 'Montserrat', sans-serif;
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight:bold;
+  font-size: calc(10px + 2vmin);
+  color: #b2e3e9;
+}
+
+
+.App-text{
+  background-image: url("media/back.png");
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  font-family:  FiraSans;
+  font-size: calc(5px + 2vmin);
+  color: #c0e9c0;
+}
+
+
+.App-link {
+  color: #350a27;
+    font-weight:bold;
+
+}

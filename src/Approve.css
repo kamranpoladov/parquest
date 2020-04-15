@@ -1,0 +1,21 @@
+
+span{
+  color: #cb685c;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.Icon {
+  height: 64px;
+  width: 64px;
+}
+
+.FileInput {
+  display: none;
+}
+
+.Button{
+    color: #cb1511;
+     font-weight: bold;
+  font-size: 20px;
+}

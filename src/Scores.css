@@ -1,0 +1,15 @@
+
+.App-headerr{
+  background-image: url("media/neon4.jpg");
+  font-family: 'Montserrat', sans-serif;
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight:bold;
+  font-size: calc(10px + 2vmin);
+  color: #b2e3e9;
+}
+
